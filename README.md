@@ -1,4 +1,4 @@
-# 🥖 Baker Best - Bakery Website
+# Baker Best - Bakery Website
 
 **HND in Computing - Website Design and Development Module**
 
