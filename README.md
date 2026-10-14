@@ -1,11 +1,26 @@
-Baker Best - Bakery Website
+# 🥖 Baker Best - Bakery Website
 
-A full-featured bakery website built with PHP, MySQL, and Bootstrap. This project was developed as part of a Website Design and Development assignment using WampServer.
+**HND in Computing - Website Design and Development Module**
+
+A full-featured bakery website built with PHP, MySQL, and Bootstrap. This project was developed as part of the **Higher National Diploma (HND) in Computing** - **Website Design and Development** module assignment using WampServer.
+
+---
+
+#
+
+| Detail | Information |
+|--------|-------------|
+| **Module** | Website Design and Development |
+| **Course** | HND in Computing |
+| **Student** | Alex Abishan |
+| **GitHub** | [@AlexAbishan11](https://github.com/AlexAbishan11) |
 
 
-Features
+---
 
-Customer Side
+
+
+###  Customer Side
 - Home page with dynamic "Fresh Arrivals" section
 - Menu page displaying all products
 - Online order placement system
@@ -13,7 +28,7 @@ Customer Side
 - About Us page
 - Responsive design (mobile friendly)
 
-Admin Side
+### Admin Side
 - Secure admin login
 - Admin dashboard with product management
 - Add new products (with image upload)
@@ -23,7 +38,9 @@ Admin Side
 - Mark orders as Completed/Delivered
 - View contact messages from customers
 
-Technologies Used
+---
+
+## Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -35,4 +52,5 @@ Technologies Used
 | MySQL | Database |
 | WampServer | Local Server (Apache + MySQL) |
 | Bootstrap Icons | Icons |
+
 
