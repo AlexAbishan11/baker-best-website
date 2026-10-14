@@ -1,0 +1,291 @@
+/* -------------------------
+   General Body & Fonts
+------------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #c79d7d; 
+    color: #4b3832;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/fresha_img.jpg');
+     
+}
+
+/* -------------------------
+   Order Page Background
+------------------------- */
+body.order-page {
+    background-image: url('../images/orbg.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+body.order-page form {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+body.contact-page {
+    background-image: url('../images/about_img.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+body.contact-page form {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+body.about-page {
+    background-image: url('../images/about_img.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+body.about-page form {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+body.menu-page {
+    background-image: url('../images/bd.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+body.menu-page form {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+
+
+/* -------------------------
+   Headings
+------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #7b3f00;
+    margin: 0;
+}
+
+
+/* -------------------------
+   Navbar
+------------------------- */
+.navbar {
+    background-color: #5c4033 !important; 
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    color: #f4c299 !important;
+}
+
+.navbar-brand:hover {
+    color: #fff !important;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #f4c299 !important;
+}
+
+/* -------------------------
+   Header Section
+------------------------- */
+header {
+    background-image: url('../images/banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #efedeb;
+    text-align: center;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+header > div {
+    position: relative;
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #f4c299;
+    text-shadow: 2px 2px 4px #000;
+}
+
+header p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    color: #fff8f0;
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+/* -------------------------
+   Cards (Menu Items)
+------------------------- */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff8f0;
+    border: none;
+    
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.card:hover {
+    transform: translateY(-16px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card-body {
+    background-color: #5c4033;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.card-title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #eee9e8;
+    font-size: 1.4rem;
+}
+
+
+.card-text {
+    color: #ebe9e7;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* -------------------------
+   Buttons
+------------------------- */
+.btn-warning {
+    background-color: #d47e32;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #fff;
+    /* font-family: 'Dancing Script', cursive;  
+    font-size: 1.2rem;                       
+    letter-spacing: 1px;  */
+}
+
+.btn-warning:hover {
+    background-color: #f4c299;
+    transform: scale(1.05);
+    color: #4b3832;
+}
+
+/* -------------------------
+   Forms
+------------------------- */
+form input, form textarea {
+    border-radius: 10px;
+    border: 1px solid #d9c2b0;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff8f0;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    border-radius: 10px;
+}
+
+/* -------------------------
+   Footer
+------------------------- */
+footer {
+    background-color: #5c4033;
+    color: #fff;
+    padding: 30px 0 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+footer a {
+    color: #f4c299;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer hr {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255,255,255,0.3);
+    margin: 15px auto;
+    width: 80%;
+}
+
+/* -------------------------
+   Responsive tweaks
+------------------------- */
+@media (max-width: 768px) {
+    header {
+        height: 350px;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    .card img {
+        height: 180px;
+    }
+    
+}
