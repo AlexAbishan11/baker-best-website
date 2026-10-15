@@ -53,9 +53,9 @@ A full-featured bakery website built with PHP, MySQL, and Bootstrap. This projec
 | WampServer | Local Server (Apache + MySQL) |
 | Bootstrap Icons | Icons |
 
-## Author
-Alex Abishan
+##  Author
 
-GitHub: @AlexAbishan11
-Course: HND in Computing
-Module: website design and development
+**Alex Abishan**
+- GitHub: [@AlexAbishan11](https://github.com/AlexAbishan11)
+- Course: HND in Computing
+- Module: Website design and development
